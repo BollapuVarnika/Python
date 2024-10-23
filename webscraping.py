@@ -27,3 +27,5 @@ soup=str(soup)
 print(type(soup))
 with open("scraping.html",'w') as fo:
     fo.write(soup)
+
+print("hello")
